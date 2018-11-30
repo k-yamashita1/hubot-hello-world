@@ -30,6 +30,7 @@
   },
   "main": "index.coffee",
   "scripts": {
+    "build": "babel src --out-dir build",
     "test": "grunt test"
   }
 }
